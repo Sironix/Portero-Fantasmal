@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/aplicacion.js"></script>
+    <title>Portero</title>
+</head>
+
+<body class="text-center" style="background-color: black;">
+  <label class="blackLabel" style="font-size: xx-large;">Estas seguro?</label>
+  </br>
+  <label class="blackLabel" id="Piso">Piso</label>
+  <label class="blackLabel" id="Dpto">Dpto</label>
+    <div id="Teclado">
+      <input class="blackButton" id="1" type="button" onclick="escribir(this.value);"value="1"/>
+      <input class="blackButton" id="2" type="button" onclick="escribir(this.value);"value="2"/>
+      <input class="blackButton" id="3" type="button" onclick="escribir(this.value);"value="3"/>
+      <br/>
+      <input class="blackButton" id="4" type="button" onclick="escribir(this.value);"value="4"/>
+      <input class="blackButton" id="5" type="button" onclick="escribir(this.value);"value="5"/>
+      <input class="blackButton" id="6" type="button" onclick="escribir(this.value);"value="6"/>
+      <br/>
+      <input class="blackButton" id="7" type="button" onclick="escribir(this.value);"value="7"/>
+      <input class="blackButton" id="8" type="button" onclick="escribir(this.value);"value="8"/>
+      <input class="blackButton" id="9" type="button" onclick="escribir(this.value);"value="9"/>
+      <br/>
+      <input class="blackButton" id="0" type="button" onclick="escribir(this.value);"value="0">
+      <br/>
+      <input class="blackButton" id="Llamar" type="button" value="Llamar" onclick="llamar();" />
+      <input class="blackButton" id="Del" type="button" value="Borrar" onclick="del();" />
+      <br/>
+      <br/>
+      <label class="blackLabel" id="Response">__________________</label>
+      
+  </div>
+
+</body>
+
+</html>

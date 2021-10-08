@@ -1,0 +1,97 @@
+/* body {
+    background-image: url("../images/jugador.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+.fullWidth {
+    width: 100%;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(75, 75, 75);
+}
+.styled:active {
+    
+    background-color: rgb(102, 102, 102);
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.spacer5 {
+    height: 5px;
+}
+
+
+.spacer50 {
+    height: 50px;
+}
+
+.spacer500 {
+    height: 500px;
+}
+.spacer50vh {
+height: 50vh;
+}
+.spacer75vh {
+    height: 75vh;
+}
+
+
+.blackLabel {
+color: red; 
+background-color: black;
+line-height: 2.5;
+padding: 0 20px;
+border: thick;
+border-style: inset;
+border-color: red;
+font-size: 1rem;
+
+}
+
+
+.blackButton {
+    color: red; 
+    background-color: black;
+    line-height: 2.5;
+    padding: 0 20px;
+    border: thick;
+    border-style: inset;
+    border-color: red;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(75, 2, 2);
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+    
+.blackButton:hover {
+    background-color: rgb(26, 26, 26);
+}
+.blackButton:active {
+    
+    background-color: rgb(56, 56, 56);
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
